@@ -1,6 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 /* ===== Base & Reset ===== */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: Arial, sans-serif; background: #f8f9fa; color: #000; line-height: 1.7; }
+body { font-family: "Fjalla One", sans-serif; color: var(--gray-dark); background-color: var(--gray-light); line-height:1.7; text-align: justify; }
 .container { width: 90%; max-width: 1200px; margin: auto; }
 .section { padding: 3rem 0; }
 .alt-bg { background: #caf0f8; }
