@@ -1,0 +1,49 @@
+/* ===== Base & Reset ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f8f9fa; color: #000; line-height: 1.7; }
+.container { width: 90%; max-width: 1200px; margin: auto; }
+.section { padding: 3rem 0; }
+.alt-bg { background: #caf0f8; }
+h1, h2 { text-align: center; margin-bottom: 1.5rem; }
+p { margin-bottom: 1rem; }
+
+/* ===== Header ===== */
+.site-header { background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+.header-inner { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; }
+.brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; color: #0077b6; font-weight: 700; font-size: 1.4rem; }
+.brand img { height: 40px; }
+.main-nav .nav-list { display: flex; gap: 1.5rem; list-style: none; }
+.main-nav .nav-list a { text-decoration: none; color: #000; font-weight: 500; transition: 0.3s; }
+.main-nav .nav-list a.active, .main-nav .nav-list a:hover { color: #0077b6; }
+.header-subnav { background: #90e0ef; text-align: center; padding: 0.3rem 0; font-size: 0.85rem; }
+
+/* ===== Buttons Dinâmicos ===== */
+.buttons-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; }
+.section-btn { padding: 0.8rem 1.5rem; background: #fff; border-radius: 8px; cursor: pointer; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: 0.3s; }
+.section-btn.active { background: #0077b6; color: #fff; transform: scale(1.05); }
+
+/* ===== Session display ===== */
+.session-container { display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; align-items: flex-start; }
+.session-carousel { flex: 1 1 400px; position: relative; }
+.session-carousel img { width: 100%; border-radius: 8px; transition: 0.3s; }
+.session-carousel .carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); background: #0077b6; color: #fff; border: none; padding: 0.5rem 1rem; cursor: pointer; border-radius: 50%; z-index: 5; }
+.session-carousel .prev { left: -30px; }
+.session-carousel .next { right: -30px; }
+.session-carousel .carousel-btn:hover { background: #023e8a; }
+
+.session-text { flex: 1 1 400px; background: #fff; padding: 1rem 2rem; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); line-height: 1.7; }
+
+/* ===== Buttons ===== */
+.btn.primary { background: #0077b6; color: #fff; padding: 0.8rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; }
+.btn.primary:hover { background: #023e8a; }
+
+/* ===== Footer ===== */
+.site-footer { background: #0077b6; color: #fff; text-align: center; padding: 1.2rem 0; }
+.site-footer small { font-size: 0.9rem; }
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .session-container { flex-direction: column; align-items: center; }
+  .session-carousel .prev, .session-carousel .next { left: 5px; right: 5px; top: auto; bottom: -40px; transform: none; }
+  .buttons-container { flex-direction: column; gap: 0.8rem; }
+}

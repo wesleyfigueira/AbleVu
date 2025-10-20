@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AbleVu — Contributor Program</title>
+  <meta name="description" content="AbleVu Contributor — onboarding & presentation page. Dynamic and expandable.">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="image/logo.png" alt="AbleVu logo" id="logo">
+        <span class="brand-text">AbleVu</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList">☰</button>
+        <ul id="navList" class="nav-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#best-practices">Best Practices</a></li>
+          <li><a href="#impact">Impact</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-subnav">
+      <div class="container">
+        <nav aria-label="Additional navigation">
+          <ul class="nav-list">
+            <li><a href="accessibility.html">Accessibility</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Main Content ===== -->
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 id="heroTitle"></h1>
+          <h2 id="heroSubtitle"></h2>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#process">How It Works</a>
+            <a class="btn ghost" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="section">
+      <div class="container">
+        <h2>AbleVu Mission</h2>
+        <p id="missionText"></p>
+      </div>
+    </section>
+
+    <!-- Contributor Mission -->
+    <section id="contributor-mission" class="section alt-bg">
+      <div class="container">
+        <h2>Contributor Mission</h2>
+        <ul id="contributorMissionList"></ul>
+      </div>
+    </section>
+
+    <!-- Process Section with Carousel -->
+    <section id="process" class="section">
+      <div class="container">
+        <h2>The Process</h2>
+        <div id="processSteps"></div>
+      </div>
+    </section>
+
+    <!-- Best Practices Section -->
+    <section id="best-practices" class="section alt-bg">
+      <div class="container">
+        <h2>Best Practices During Visits</h2>
+        <ol id="bestPractices"></ol>
+      </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="section">
+      <div class="container">
+        <h2>Contributor Impact</h2>
+        <ul id="impactList"></ul>
+      </div>
+    </section>
+
+    <!-- Thank You Section -->
+    <section id="thanks" class="section alt-bg">
+      <div class="container">
+        <h2>Thank You!</h2>
+        <p>Thank you for being part of AbleVu’s mission. Together, we are building a more inclusive world, one visit at a time.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div>
+          <h2>Want to learn more?</h2>
+          <p>If you have any questions, contact: <a href="mailto:Jackson@ablevu.com">Jackson@ablevu.com</a></p>
+          <p>Or schedule a meeting:</p>
+          <p><a class="btn primary" href="https://calendly.com" target="_blank" rel="noopener noreferrer">Book a Call</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> AbleVu — Making travel more accessible</small>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js" defer></script>
+</body>
+</html>
