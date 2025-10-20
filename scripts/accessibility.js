@@ -3,44 +3,61 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: "Parking & Arrival",
       description: "Accessible parking should provide enough spaces (ADA recommends 1 per 25 standard spots), be wide with adjacent striped aisles for wheelchair access, clearly marked with the International Symbol of Accessibility (ideally elevated for visibility), and located close to accessible entrances with a smooth, unobstructed path.",
+      name2: "Accessible Entry & Drop-Off",
+      description2:"Ensure a safe and accessible drop-off/pick-up area: it should be level, well-lit, ideally covered, and spacious enough for vehicles with lifts or ramps. Curb cuts or ramps must connect parking to entrances with gentle slopes, firm non-slip surfaces, handrails if needed, and level landings for resting.",
       images: ["https://www.shutterstock.com/image-photo/handicapped-parking-signs-on-ground-260nw-2526759901.jpg",
-         "https://nwadacenter.org/sites/adanw/files/images/accessible%20parking%20lot1.jpg",
-        "https://cdn.prod.website-files.com/6557cc25c4a5cf483dfab5a2/6557cc25c4a5cf483dfab730_20210707-APM-BTLPromo-1dx--3362.jpg"]
+         "https://images.squarespace-cdn.com/content/v1/5a36eb7bd74cffbd7ebfde35/1609006090775-694TB4GGBZCDMM5LNDVL/image-asset.jpeg",
+        "https://cdn.prod.website-files.com/6557cc25c4a5cf483dfab5a2/6557cc25c4a5cf483dfab730_20210707-APM-BTLPromo-1dx--3362.jpg",
+      "https://cdn.prod.website-files.com/65fb41ba8fabd933e8896549/66083e55ac5d90489e0b2fb5_Compliant-curb-ramp-2.jpeg"]
     },
     {
-      name: "Entrances & Exits",
-      description: "Verify step-free entrances, wide doors, low thresholds and clear signage for accessibility.",
-      images: ["image/entrance1.jpg", "image/entrance2.jpg"]
+      name: "",
+      description: "",
+      name2: "",
+      description2:"",
+      images: [""]
     },
     {
-      name: "Restrooms",
-      description: "Ensure accessible restrooms with grab bars, turning space, emergency buttons, and sink clearance.",
-      images: ["image/restroom1.jpg", "image/restroom2.jpg"]
+      name: "",
+      description: "",
+      name2: "",
+      description2:"",
+      images: [""]
     },
     {
-      name: "Interior Navigation",
-      description: "Check pathways, elevators, signage, braille indicators and non-slip surfaces.",
-      images: ["image/interior1.jpg", "image/interior2.jpg"]
+      name: "",
+      description: "",
+      name2: "",
+      description2:"",
+      images: [""]
     },
     {
-      name: "Seating & Common Areas",
-      description: "Assess accessible seating, armrests, mobility space and waiting areas.",
-      images: ["image/common1.jpg", "image/common2.jpg"]
+      name: "",
+      description: "",
+      name2: "",
+      description2:"",
+      images: [""]
     },
     {
-      name: "Visual Accessibility",
-      description: "Check for large-print materials, high-contrast signage, Braille labels, and proper lighting.",
-      images: ["image/visual1.jpg", "image/visual2.jpg"]
+      name: "",
+      description: "",
+      name2: "",
+      description2:"",
+      images: [""]
     },
     {
-      name: "Hearing Accessibility",
-      description: "Look for assistive listening systems, visual alarms, and trained staff for deaf or hard-of-hearing guests.",
-      images: ["image/hearing1.jpg", "image/hearing2.jpg"]
+      name: "",
+      description: "",
+      name2: "",
+      description2:"",
+      images: [""]
     },
     {
-      name: "Invisible Disabilities",
-      description: "Check sensory-friendly environments, quiet areas, lighting, noise, smells, and available accommodations.",
-      images: ["image/invisible1.jpg", "image/invisible2.jpg"]
+      name: "",
+      description: "",
+      name2: "",
+      description2:"",
+      images: [""]
     }
   ];
 
@@ -72,6 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="session-text">
         <h3>${section.name}</h3>
         <p>${section.description}</p>
+        <h3>${section.name2}</h3>
+        <p>${section.description2}</p>
       </div>
     `;
 
