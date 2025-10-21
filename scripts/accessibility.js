@@ -43,32 +43,45 @@ document.addEventListener('DOMContentLoaded', () => {
       ]
     },
     {
-      name: "",
-      description: "",
-      name2: "",
-      description2:"",
-      images: [""]
+      name: "Restrooms (WCs) ",
+      description: "Accessible restrooms make it possible for everyone, including people who use wheelchairs, walkers, or other mobility aids, to use facilities safely and independently. Every location should have at least one accessible restroom, and it should not be limited to a specific gender. The restroom must also be clearly marked with the International Symbol of Accessibility so visitors can find it easily. When checking a restroom, make sure there is enough space to move around, grab bars for support, and sinks and fixtures that are easy to reach and use. Providing accessible restrooms isn’t just about meeting requirements — it’s about ensuring that every visitor feels welcome and included.",
+      name2: "Accessible Restroom Features",
+      description2:"Accessible restrooms are essential to ensure everyone, including people who use wheelchairs, walkers, or other mobility aids, can use facilities safely and independently. To be fully accessible, restrooms should have doors at least 32 inches (81 cm) wide with handles that are easy to use, such as lever-style or automatic ones. Grab bars should be securely installed beside and behind the toilet to provide stability and support, placed at standard heights for safe use. Sinks need to be reachable from a seated position, with clear space underneath for wheelchair access, and faucets should be simple to operate, ideally lever or sensor-style. The space should allow a minimum turning area of 60 inches (152 cm) so wheelchair users can move comfortably, and pathways to the toilet, sink, and door should remain free of obstacles. If available, an emergency call button or pull cord should be within easy reach of someone using the toilet, clearly marked, and fully functional. Together, these features ensure restrooms are not only compliant but genuinely comfortable and welcoming for all visitors.",
+      images: ["https://pressalit.com/media/kmelmqne/accessible-hospital-bathroom-by-pressalit-01.jpg",
+        "https://as1.ftcdn.net/jpg/05/29/27/56/1000_F_529275664_zT4tNhQdT7M3Evuor4i7IbVL5xl4PCOG.jpg",
+        "https://shower-buddy.com/cdn/shop/articles/showerbuddy-blog-public-restrooms-disabled_520x500_632b3e3c-01a2-4012-99b0-0ca4413e6657.webp?v=1722552463&width=520",
+        "https://wpmedia.roomsketcher.com/content/uploads/2021/12/05145422/ada-bathroom.jpg"
+      ]
     },
     {
-      name: "",
-      description: "",
-      name2: "",
-      description2:"",
-      images: [""]
+      name: "Visual Accessibility",
+      description: "Ensuring that visitors with visual impairments can navigate and access information is essential. A visually accessible environment includes large-print materials such as menus, brochures, and guides, as well as digital content that supports zooming and adjustable font sizes. High-contrast signage should make text easy to read and guide visitors clearly throughout the facility. Additionally, adequate lighting in all areas — including entrances, hallways, restrooms, and seating spaces — helps people distinguish pathways, steps, and key features safely and comfortably.",
+      name2: "Braille Signage",
+      description2:"Key areas such as doors, elevators, restrooms, and emergency exits should have Braille signage. Signs should be positioned so they are easily readable, including for someone seated in a wheelchair, ensuring all visitors can navigate the space independently and safely.",
+      images: ["https://dysegna.com/images/2025/03/01/imagen4.png",
+        "https://img.archiexpo.com/images_ae/photo-g/3928-11076038.jpg",
+        "https://www.printmag.com/wp-content/uploads/2022/03/277028959_376459537663628_2660108854247643375_n.jpg"
+      ]
     },
     {
-      name: "",
-      description: "",
+      name: "Hearing Accessibility",
+      description: "Visitors who are deaf or hard of hearing depend on a combination of technology, clear communication, and staff awareness to navigate spaces safely and independently. Ensuring hearing accessibility means providing features such as visual alerts, captioned media, assistive listening systems, and trained staff who know how to communicate effectively. These elements help create an inclusive environment where everyone can fully participate and access information with confidence.",
       name2: "",
-      description2:"",
-      images: [""]
+      description2:"Creating an inclusive environment for visitors who are deaf or hard of hearing involves providing the right tools, technology, and staff awareness. Key areas such as auditoriums, meeting rooms, and ticket counters should be equipped with assistive listening systems like induction loops or FM devices that are properly maintained and easy to use. Equally important is staff training — team members should know how to communicate effectively through clear speech, written communication, or basic sign language when needed. Finally, all emergency systems must include visual alerts, such as flashing lights, that are clearly visible in public spaces, hallways, and restrooms to ensure everyone’s safety and independence.",
+      images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFWldezBBUdSi59LxFRgOXWlOMLvODVWP07g&s",
+        "https://nationaldeafcenter.org/wp-content/uploads/2017/09/firealarm-scaled.jpeg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKkD2PuQZU7mPzzWHMwoDEM_h6zX461h0x7g&s"
+      ]
     },
     {
-      name: "",
-      description: "",
-      name2: "",
-      description2:"",
-      images: [""]
+      name: "Accessibility for Invisible Disabilities",
+      description: "Not all disabilities can be seen, but they are just as important to consider. Many visitors may have sensory sensitivities, autism, ADHD, PTSD, or other conditions that affect how they experience a space. Creating an inclusive environment means offering thoughtful accommodations — such as quiet areas, clear signage, predictable layouts, and supportive staff — to help every guest feel comfortable, safe, and welcomed.",
+      name2: "Sensory-Friendly Environment",
+      description2:"Creating a sensory-friendly environment helps ensure that visitors with sensory sensitivities, autism, or other invisible disabilities can enjoy their experience comfortably. Quiet or low-stimulation areas where guests can take breaks should be clearly marked and easy to access. Noise levels should be managed by limiting background music or loud equipment in public areas.Lighting also plays a key role — harsh or flickering lights can cause discomfort, so soft, natural, or adjustable lighting is preferred in spaces where people spend more time. Strong smells from cleaning products, perfumes, or kitchens should be minimized through good ventilation and scent control. Some places also offer sensory-friendly hours with reduced sound, lighting, and activity levels, giving visitors a calmer and more inclusive experience.",
+      images: ["https://businessnow.mt/wp-content/uploads/2022/05/pr220536a-scaled-e1651563788707.jpg",
+        "https://suncorpstadium.com.au/adobe/dynamicmedia/deliver/dm-aid--3af4d98f-bfb0-4efa-bf13-7f79d158f37d/quiet-room-suncorp-stadium-plan-your-visit-accessibility.jpg?preferwebp=true&quality=70",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO5wpWQwMGpsgN86TVBgznOcHYRMvPcAmtsg&s"
+      ]
     }
   ];
 

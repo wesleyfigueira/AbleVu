@@ -67,6 +67,59 @@ ul, ol { padding-left:0; margin-left:0; list-style:none; }
 .site-footer { background-color: var(--blue-dark); color: var(--white); text-align:center; padding:1.2rem 0; }
 .site-footer small { font-size:.9rem; }
 
+
+/* ==========Contact===========*/
+
+/* Contact Section Styles */
+#contact.contact {
+  display: flex;
+  flex-direction: column;       /* Stack content vertically */
+  align-items: center;          /* Center horizontally */
+  justify-content: center;      /* Center vertically */
+  text-align: center;
+  min-height: 60vh;             /* Center vertically on screen */
+  padding: 60px 20px;
+  background-color: #e9f2f8;   /* Example background color */
+}
+
+#contact.contact .contact-inner {
+  max-width: 600px;             /* Limit content width */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;          /* Ensure inner content is centered */
+}
+
+#contact.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#contact.contact p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+/* Button centered with padding from above text */
+#contact.contact a.btn.primary {
+  display: block;               /* Take full width of container for centering */
+  text-align: center;           /* Center text inside button */
+  margin-top: 30px;             /* Space from the text above */
+  padding: 12px 25px;
+  font-size: 1em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;   /* Primary button color */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#contact.contact a.btn.primary:hover {
+  background-color: #0056b3;   /* Hover color */
+}
+
+
 /* ===== Responsive ===== */
 @media(max-width:768px){
   .nav-list { display:none; flex-direction:column; background-color:var(--white); position:absolute; right:0; top:100%; width:200px; box-shadow:0 5px 10px rgba(0,0,0,.1);}
